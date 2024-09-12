@@ -19,15 +19,15 @@ import time
 from telebot import types
 
 stopuser = {}
-token = '7337962051:AAGfuez9swJWXOjHYxbRoO_JSjk4MNxlbI0'
+token = '7407169277:AAGBiLE6rGc8j4MpoK29yzcbQsP2C2nJj3k'
 bot=telebot.TeleBot(token,parse_mode="HTML")
 
 
-admin=7096040584
+admin=567134933
 
-myid = ['7096040584']
+myid = ['567134933']
 
-admins = ['7096040584']
+admins = ['567134933']
 
 
 
@@ -71,29 +71,29 @@ def start(message):
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)
 		if BL == 'Free - Not Subscribed':	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - cheetax1", url="https://t.me/cheetax1")
+			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - !Ξ Ｒ Ｒ Ø Ｒ ✘", url="https://t.me/roronoa_robot")
 			keyboard.add(contact_button)
 			random_number = random.randint(4, 17)
-			photo_url = f'https://t.me/animephotossea/{random_number}'
+			photo_url = f'https://t.me/zorowallpaper/110'
 			bot.send_photo(chat_id=message.chat.id, photo=photo_url, caption=f'''<b>ϟ Welcome Dear -> {name} ϟ
-ϟ Youre Not Subscribed in Check World Bot ❌
+ϟ Youre Not Subscribed in !Ξ Ｒ Ｒ Ø Ｒ ✘ Bot ❌
 
 ϟ For Show Bot Prices Send -> /prices
-ϟ Programmer ~ @cheetax1 </b>''',reply_markup=keyboard)
+ϟ Programmer ~ !Ξ Ｒ Ｒ Ø Ｒ ✘ </b>''',reply_markup=keyboard)
 			return
 		keyboard = types.InlineKeyboardMarkup()
-		contact_button = types.InlineKeyboardButton(text="ϟ Our Channel ϟ", url="https://t.me/vetranchat")
+		contact_button = types.InlineKeyboardButton(text="ϟ Our Channel ϟ", url="https://t.me/Err0rrx")
 		keyboard.add(contact_button)
 		username = message.from_user.first_name
 		random_number = random.randint(4, 17)
-		photo_url = f'https://t.me/animephotossea/{random_number}'
+		photo_url = f'https://t.me/zorowallpaper/110'
 		bot.send_photo(chat_id=message.chat.id, photo=photo_url, caption=f'''<strong>ϟ Welcome -> {name} ϟ
 - Your Subscription is Active ✅
 
 - For Show check commands Send -> /cmds
 - For Check The Combo CC File Send The Combo And Choose The Gate ✅
 
-ϟ - Programmer • @cheetax1 ϟ</strong>''',reply_markup=keyboard)
+ϟ - Programmer • !Ξ Ｒ Ｒ Ø Ｒ ✘ ϟ</strong>''',reply_markup=keyboard)
 	my_thread = threading.Thread(target=my_function)
 	my_thread.start()
 @bot.message_handler(commands=["cmds"])
@@ -166,13 +166,13 @@ def main(message):
 			with open('data.json', 'w') as json_file:
 				json.dump(existing_data, json_file, ensure_ascii=False, indent=4)	
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - cheetax1", url="https://t.me/cheetax1")
+			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - !Ξ Ｒ Ｒ Ø Ｒ ✘", url="https://t.me/roronoa_robot")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text=f'''<b>• Welcome Dear » {name}
 - Youre Not Subscribed in BOT ❌
 
 • For Show Bot Priced Send /prices
-- Programmer ~ @cheetax1 - </b>''',reply_markup=keyboard)
+- Programmer ~ !Ξ Ｒ Ｒ Ø Ｒ ✘ - </b>''',reply_markup=keyboard)
 			return
 		with open('data.json', 'r') as file:
 			json_data = json.load(file)
@@ -181,19 +181,19 @@ def main(message):
 			provided_time = datetime.strptime(date_str, "%Y-%m-%d %H:%M")
 		except Exception as e:
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - cheetax1", url="https://t.me/cheetax1")
+			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - !Ξ Ｒ Ｒ Ø Ｒ ✘", url="https://t.me/roronoa_robot")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text=f'''<b>• Welcome Dear » {name}
 - Youre Not Subscribed in BOT ❌
 
 • For Show Bot Priced Send /prices
-- Programmer ~ @cheetax1 -  </b>''',reply_markup=keyboard)
+- Programmer ~ !Ξ Ｒ Ｒ Ø Ｒ ✘ -  </b>''',reply_markup=keyboard)
 			return
 		current_time = datetime.now()
 		required_duration = timedelta(hours=0)
 		if current_time - provided_time > required_duration:
 			keyboard = types.InlineKeyboardMarkup()
-			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - cheetax1", url="https://t.me/cheetax1")
+			contact_button = types.InlineKeyboardButton(text="ϟ Programmer - !Ξ Ｒ Ｒ Ø Ｒ ✘", url="https://t.me/roronoa_robot")
 			keyboard.add(contact_button)
 			bot.send_message(chat_id=message.chat.id, text='''<b>ϟ Your Subscription has Expired • لاتستطيع استخدام البوت لانه انتهى اشتراكك </b>
 		''',reply_markup=keyboard)
@@ -612,7 +612,7 @@ def menu_callback(call):
                         text=f'''
 <b>- Please Wait Checking Your Cards 💫
 - Gate -> {gate} 💫
-- Programmer -> @cheetax1 </b>''', 
+- Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘ </b>''', 
                         reply_markup=mes)
 
                     msg = f'''<b>• Approved ✅
@@ -624,7 +624,7 @@ def menu_callback(call):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
                     if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last or 'CVV' in last:
                         live += 1
@@ -638,7 +638,7 @@ def menu_callback(call):
             bot.send_message(admins[0], f'Error -> {error}')
 
         stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص بعد الانتهاء
-        bot.send_message(chat_id=call.message.chat.id, text='- Done Check All Cards ✅\n - Programmer • @cheetax1')
+        bot.send_message(chat_id=call.message.chat.id, text='- Done Check All Cards ✅\n - Programmer • !Ξ Ｒ Ｒ Ø Ｒ ✘')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -780,7 +780,7 @@ def menu_callback(call):
                         text=f'''
 <b>- Please Wait Checking Your Cards 💫
 - Gate -> {gate} 💫
-- Programmer -> @cheetax1 </b>''', 
+- Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘ </b>''', 
                         reply_markup=mes)
 
                     msg = f'''<b>• Approved ✅
@@ -792,7 +792,7 @@ def menu_callback(call):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
                     if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last or 'CVV' in last:
                         live += 1
@@ -806,7 +806,7 @@ def menu_callback(call):
             bot.send_message(admins[0], f'Error -> {error}')
 
         stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص بعد الانتهاء
-        bot.send_message(chat_id=call.message.chat.id, text='- Done Check All Cards ✅\n - Programmer • @cheetax1')
+        bot.send_message(chat_id=call.message.chat.id, text='- Done Check All Cards ✅\n - Programmer • !Ξ Ｒ Ｒ Ø Ｒ ✘')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -965,7 +965,7 @@ def menu_callback(call):
                         text=f'''
 <b>- Please Wait Checking Your Cards 💫
 - Gate -> {gate} 💫
-- Programmer -> @cheetax1 </b>''', 
+- Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘ </b>''', 
                         reply_markup=mes)
 
                     msg = f'''<b>• Approved ✅
@@ -977,7 +977,7 @@ def menu_callback(call):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
                     if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last or 'CVV' in last:
                         live += 1
@@ -991,7 +991,7 @@ def menu_callback(call):
             bot.send_message(admins[0], f'Error -> {error}')
 
         stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص بعد الانتهاء
-        bot.send_message(chat_id=call.message.chat.id, text='- Done Check All Cards ✅\n - Programmer • @cheetax1')
+        bot.send_message(chat_id=call.message.chat.id, text='- Done Check All Cards ✅\n - Programmer • !Ξ Ｒ Ｒ Ø Ｒ ✘')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -1131,7 +1131,7 @@ def menu_callbactok(call):
                         text=f'''
 <b>- Please Wait Checking Your Cards 💫
 - Gate -> {gate} 💫
-- Programmer -> @cheetax1 </b>''', 
+- Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘ </b>''', 
                         reply_markup=mes)
                     
                     msg = f'''<b>• Approved ✅
@@ -1143,7 +1143,7 @@ def menu_callbactok(call):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
                     
                     if "Funds" in last or 'Invalid postal' in last or 'avs' in last or 'added' in last or 'Duplicate' in last or 'Approved' in last or 'CVV' in last:
                         live += 1
@@ -1156,7 +1156,7 @@ def menu_callbactok(call):
             bot.send_message(admins[0], f'Error -> {error}')
         
         stopuser[id]['status'] = 'stopped'  # تحرير حالة الفحص بعد الانتهاء
-        bot.send_message(chat_id=call.message.chat.id, text='- Done Check All Cards ✅\n - Programmer • @cheetax1')
+        bot.send_message(chat_id=call.message.chat.id, text='- Done Check All Cards ✅\n - Programmer • !Ξ Ｒ Ｒ Ø Ｒ ✘')
 
     my_thread = threading.Thread(target=my_function)
     my_thread.start()
@@ -1304,7 +1304,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
         ok = f'''<b>• Approved ✅
 
@@ -1315,7 +1315,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
         cvc = f'''<b>• Cvv Card ☑️        
 --------------------------------------------
@@ -1326,7 +1326,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 - Process Time -> {"{:.1f}".format(execution_time)} Seconds. 
 --------------------------------------------
-- Programmer • @cheetax1</b>'''
+- Programmer • !Ξ Ｒ Ｒ Ø Ｒ ✘</b>'''
 
         if 'CVV' in last or 'CCN' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -1336,10 +1336,10 @@ def respond_to_vhk(message):
             bot.edit_message_text(text=dec, chat_id=message.chat.id, message_id=ko)
     else:
         bot.reply_to(message, f'''- Welcome Dear ♡!
-You are Not Subscribed cheetax1Chk BOT !❌
+You are Not Subscribed !Ξ Ｒ Ｒ Ø Ｒ ✘Chk BOT !❌
 
 Your ID : {message.chat.id}
-Programmer - @cheetax1''')
+Programmer - !Ξ Ｒ Ｒ Ø Ｒ ✘''')
 
 
 
@@ -1431,7 +1431,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
         ok = f'''<b>• Approved ✅
 
@@ -1442,7 +1442,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
         cvc = f'''<b>• Cvv Card ☑️        
 --------------------------------------------
@@ -1453,7 +1453,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 - Process Time -> {"{:.1f}".format(execution_time)} Seconds. 
 --------------------------------------------
-- Programmer • @cheetax1</b>'''
+- Programmer • !Ξ Ｒ Ｒ Ø Ｒ ✘</b>'''
 
         if 'CVV' in last or 'CCN' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -1463,10 +1463,10 @@ def respond_to_vhk(message):
             bot.edit_message_text(text=dec, chat_id=message.chat.id, message_id=ko)
     else:
         bot.reply_to(message, f'''- Welcome Dear ♡!
-You are Not Subscribed cheetax1Chk BOT !❌
+You are Not Subscribed !Ξ Ｒ Ｒ Ø Ｒ ✘Chk BOT !❌
 
 Your ID : {message.chat.id}
-Programmer - @cheetax1''')
+Programmer - !Ξ Ｒ Ｒ Ø Ｒ ✘''')
 
 
 
@@ -1549,7 +1549,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
         ok = f'''<b>• Approved ✅
 
@@ -1560,7 +1560,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
         cvc = f'''<b>• Cvv Card ☑️        
 --------------------------------------------
@@ -1571,7 +1571,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 - Process Time -> {"{:.1f}".format(execution_time)} Seconds. 
 --------------------------------------------
-- Programmer • @cheetax1</b>'''
+- Programmer • !Ξ Ｒ Ｒ Ø Ｒ ✘</b>'''
 
         if 'CVV' in last or 'CCN' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -1581,10 +1581,10 @@ def respond_to_vhk(message):
             bot.edit_message_text(text=dec, chat_id=message.chat.id, message_id=ko)
     else:
         bot.reply_to(message, f'''- Welcome Dear ♡!
-You are Not Subscribed cheetax1Chk BOT !❌
+You are Not Subscribed !Ξ Ｒ Ｒ Ø Ｒ ✘Chk BOT !❌
 
 Your ID : {message.chat.id}
-Programmer - @cheetax1''')
+Programmer - !Ξ Ｒ Ｒ Ø Ｒ ✘''')
 
 
 
@@ -1668,7 +1668,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
         ok = f'''<b>• Approved ✅
 
@@ -1679,7 +1679,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
         cvc = f'''<b>• Cvv Card ☑️        
 --------------------------------------------
@@ -1690,7 +1690,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 - Process Time -> {"{:.1f}".format(execution_time)} Seconds. 
 --------------------------------------------
-- Programmer • @cheetax1</b>'''
+- Programmer • !Ξ Ｒ Ｒ Ø Ｒ ✘</b>'''
 
         if 'CVV' in last or 'CCN' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -1700,10 +1700,10 @@ def respond_to_vhk(message):
             bot.edit_message_text(text=dec, chat_id=message.chat.id, message_id=ko)
     else:
         bot.reply_to(message, f'''- Welcome Dear ♡!
-You are Not Subscribed cheetax1 Chk BOT !❌
+You are Not Subscribed !Ξ Ｒ Ｒ Ø Ｒ ✘ Chk BOT !❌
 
 Your ID : {message.chat.id}
-Programmer - @cheetax1''')
+Programmer - !Ξ Ｒ Ｒ Ø Ｒ ✘''')
 
 
 
@@ -1834,7 +1834,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
         ok = f'''<b>• Approved ✅
 
@@ -1845,7 +1845,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 
 ϟ Time -> {"{:.1f}".format(execution_time)} Seconds. 
-ϟ - Programmer -> @cheetax1⚡</b>'''
+ϟ - Programmer -> !Ξ Ｒ Ｒ Ø Ｒ ✘⚡</b>'''
 
         cvc = f'''<b>• Cvv Card ☑️        
 --------------------------------------------
@@ -1856,7 +1856,7 @@ def respond_to_vhk(message):
 {str(dato(cc[:6]))}
 - Process Time -> {"{:.1f}".format(execution_time)} Seconds. 
 --------------------------------------------
-- Programmer • @cheetax1</b>'''
+- Programmer • !Ξ Ｒ Ｒ Ø Ｒ ✘</b>'''
 
         if 'CVV' in last or 'CCN' in last:
             bot.edit_message_text(text=cvc, chat_id=message.chat.id, message_id=ko)
@@ -1866,10 +1866,10 @@ def respond_to_vhk(message):
             bot.edit_message_text(text=dec, chat_id=message.chat.id, message_id=ko)
     else:
         bot.reply_to(message, f'''- Welcome Dear ♡!
-You are Not Subscribed cheetax1 Chk BOT !❌
+You are Not Subscribed !Ξ Ｒ Ｒ Ø Ｒ ✘ Chk BOT !❌
 
 Your ID : {message.chat.id}
-Programmer - @cheetax1''')
+Programmer - !Ξ Ｒ Ｒ Ø Ｒ ✘''')
 
 
 
@@ -2049,7 +2049,7 @@ def qwwe(message):
                         erop += 1
                         print(f"Error sending message to user {user_id}: {e}")
 
-            bot.reply_to(message, f'''- Hello cheetax1
+            bot.reply_to(message, f'''- Hello !Ξ Ｒ Ｒ Ø Ｒ ✘
 • Done Send - {mp}
 • Bad Send - {erop}''')
         except Exception as err:
@@ -2275,7 +2275,7 @@ def adodre(message):
 - Show Sub's ID's ¦ /sh
 - Stop And Start The Gate's /gate
 ------------------------------------
-• Programmer ¦ @cheetax1''')
+• Programmer ¦ !Ξ Ｒ Ｒ Ø Ｒ ✘''')
 
 
 
@@ -2292,7 +2292,7 @@ def respondn_to_vhk(message):
  NOT FOR SELL 
 • • We Accept All Payment Methods in World ✅
 • For Subscribe & inquiry - 🛩
-🖱👼@cheetax1👼''')
+🖱👼!Ξ Ｒ Ｒ Ø Ｒ ✘👼''')
 
 
 
